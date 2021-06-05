@@ -17,7 +17,7 @@ io.on("connection", socket => {
 
     socket.emit("message", {
       user: "admin",
-      text: `${user.username}, welcome to room ${user.room}, I am waris, a Full stack developer, i developed this web chat application using some latest technologies. You can view my portfolio at https://waris-portfolio.herokuapp.com. Tell friends to join this room in order to chat together. Enjoy!!!`,
+      text: `Hey ${user.username}!!, Welcome to room ${user.room}, I am waris, a Full stack developer`,
       time: Number(Date.now())
     });
 
