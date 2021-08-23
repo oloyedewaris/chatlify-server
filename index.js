@@ -17,7 +17,7 @@ io.on("connection", socket => {
 
     socket.emit("message", {
       user: "admin",
-      text: `Hey ${user.username}!!, Welcome to room ${user.room}, I am waris, a Full stack developer`,
+      text: `Hey ${user.username}!!, Welcome to room ${user.room}. You can start chatting with other members of this room`,
       time: Number(Date.now())
     });
 
